@@ -24,20 +24,19 @@ function Hero() {
             <div className="w-full lg:max-w-[79%]">
               <p className="text-white lg:text-start md:text-center leading-[1.5]">
                 Hello there! I&apos;m Brent Ross Habawel, a
-                <span className="font-bold"> SAP CPI Developer</span> with a
-                passion for turning ideas into reality. I specialize in building
-                scalable, efficient, and technical middleware solutions creating
-                integration flows and have extensive knowledge in IDOC,
-                Flatfile, X12, and EDIFACT. I also utilize different functions
-                like
+                <span className="font-bold"> SAP CPI Developer</span> dedicated
+                to transforming ideas into reality. I specialize in creating
+                scalable and efficient middleware solutions, focusing on
+                integration flows. I have extensive expertise in IDOC, Flatfile,
+                X12, and EDIFACT, and I leverage various functions such as
                 <span className="font-bold"> MIGs,&nbsp;</span>
                 <span className="font-bold"> Number Range,&nbsp;</span>
                 <span className="font-bold"> Groovy,&nbsp;</span>
                 and
-                <span className="font-bold"> XSLT&nbsp;</span>
-                while managing the migration of integration platforms from
-                Non-SAP to SAP Systems and leveraging Data Store capabilities,
-                along with proficiency in adapters such as
+                <span className="font-bold"> XSLT&nbsp;</span>. Additionally, I
+                manage the migration of integration platforms from Non-SAP to
+                SAP systems while utilizing Data Store capabilities and am
+                proficient in adapters like
                 <span className="font-bold"> SOAP,&nbsp;</span>
                 <span className="font-bold"> HTTPS,&nbsp;</span>
                 <span className="font-bold"> Postman,&nbsp;</span>

@@ -2,7 +2,7 @@ import Hero from "./Hero";
 import Navbar from "./Navbar";
 import Services from "./Services";
 import TechStack from "./TechStack";
-import Portfolio from "./Portfolio";
+// import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -13,7 +13,7 @@ function Landing() {
       <Hero />
       <Services />
       <TechStack />
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Contact />
       <Footer />
     </div>

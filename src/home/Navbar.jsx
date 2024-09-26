@@ -102,14 +102,14 @@ function Navbar() {
                 Services
               </a>
             </li>
-            <li className="text-center">
+            {/* <li className="text-center">
               <a
                 href="#portfolio"
                 className="block text-center text-white rounded md:bg-transparent"
               >
                 Portfolio
               </a>
-            </li>
+            </li> */}
             <li className="text-center">
               <a
                 href="#contact"

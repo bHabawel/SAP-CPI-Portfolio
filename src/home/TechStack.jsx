@@ -1,10 +1,10 @@
 import NodeImage from "../assets/node.png";
-import CssImage from "../assets/css.png";
-import HtmlImage from "../assets/html.png";
+import GroovyImage from "../assets/groovy.png";
+import SAPImage from "../assets/SAP.png";
 import JsImage from "../assets/js.png";
 import GitImage from "../assets/git.png";
 import GithubImage from "../assets/github.png";
-import FirebaseImage from "../assets/firebase.png";
+import XsltImage from "../assets/xslt.png";
 import ReactImage from "../assets/react.png";
 import RestImage from "../assets/rest.png";
 
@@ -32,7 +32,7 @@ function TechStack() {
             than just a collection of technologies; it’s a competitive advantage
             that elevates your Integration Flow experience to new heights.
             Harness the power of my tech stack and step into the future of CPI
-            development. 🚀
+            and Web development. 🚀
           </p>
         </div>
         <div
@@ -41,10 +41,10 @@ function TechStack() {
           className="grid grid-cols-2 sm:grid-cols-3 grid-rows-3 w-full lg:w-[474px] gap-[7px]"
         >
           <div className="col-span-1 py-6 flex justify-center items-center bg-[#222222]/[30%] border border-[#2C2C2C] rounded-lg">
-            <img className="w-[50px] h-[50px]" src={HtmlImage} alt="" />
+            <img className="w-[80px] h-[50px]" src={SAPImage} alt="" />
           </div>
           <div className="col-span-1 py-6 flex justify-center items-center bg-[#222222]/[30%] border border-[#2C2C2C] rounded-lg">
-            <img className="w-[50px] h-[50px]" src={CssImage} alt="" />
+            <img className="w-[90px] h-[60px]" src={GroovyImage} alt="" />
           </div>
           <div className="col-span-1 py-6 flex justify-center items-center bg-[#222222]/[30%] border border-[#2C2C2C] rounded-lg">
             <img className="w-[50px] h-[50px]" src={JsImage} alt="" />
@@ -60,7 +60,7 @@ function TechStack() {
             />
           </div>
           <div className="col-span-1 py-6 flex justify-center items-center bg-[#222222]/[30%] border border-[#2C2C2C] rounded-lg">
-            <img className="w-[50px] h-[50px]" src={FirebaseImage} alt="" />
+            <img className="w-[65px] h-[65px]" src={XsltImage} alt="" />
           </div>
           <div className="col-span-1 py-6 flex justify-center items-center bg-[#222222]/[30%] border border-[#2C2C2C] rounded-lg">
             <img className="w-[56px] h-[50px]" src={ReactImage} alt="" />
