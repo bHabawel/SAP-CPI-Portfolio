@@ -4,9 +4,9 @@ import Portfolio3_3 from "../assets/porfolio/portfolio-3_3.png";
 import Portfolio4_4 from "../assets/porfolio/portfolio-4_4.png";
 import Portfolio5_5 from "../assets/porfolio/portfolio-5_5.png";
 import Portfolio6_6 from "../assets/porfolio/portfolio-6_6.png";
-// import Portfolio7 from "../assets/porfolio/portfolio-7.jpg";
-// import Portfolio8 from "../assets/porfolio/portfolio-8.png";
-// import Portfolio9 from "../assets/porfolio/portfolio-9.jpg";
+import Portfolio7_7 from "../assets/porfolio/portfolio-7_7.png";
+import Portfolio8 from "../assets/porfolio/portfolio-8.png";
+import Portfolio9 from "../assets/porfolio/portfolio-9.jpg";
 
 function Portfolio() {
   return (
@@ -18,7 +18,7 @@ function Portfolio() {
       <h3 className="text-[56px] font-bold text-white leading-[1]">
         My Recent Work
       </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-[51px]">
+      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 mt-[51px]">
         <div className="grid gap-4">
           <a
             href="https://fast-react-pizza-co-five.vercel.app/"
@@ -95,16 +95,16 @@ function Portfolio() {
             />
           </a>
         </div>
-        {/* <div className="grid gap-4" data-aos="fade-up" data-aos-duration="2000">
+        <div className="grid gap-4" data-aos="fade-up" data-aos-duration="2000">
           <a
-            href="#"
+            href="https://securescape-crypto.vercel.app/pages/company/company.html"
             className="overflow-hidden rounded-lg"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
               className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]"
-              src={Portfolio7}
+              src={Portfolio7_7}
               alt=""
             />
           </a>
@@ -132,7 +132,7 @@ function Portfolio() {
               alt=""
             />
           </a>
-        </div> */}
+        </div>
       </div>
     </section>
   );
