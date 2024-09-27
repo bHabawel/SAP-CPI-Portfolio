@@ -25,8 +25,8 @@ function Contact() {
           <div className="flex justify-between gap-[19px]">
             <p className="text-white font-semibold">Home</p>
             <p className="text-white font-semibold">Services</p>
-            <p className="text-white font-semibold">Tech Stack</p>
-            {/* <p className="text-white font-semibold">Portfolio</p> */}
+            {/* <p className="text-white font-semibold">Tech Stack</p> */}
+            <p className="text-white font-semibold">Portfolio</p>
           </div>
         </div>
       </div>

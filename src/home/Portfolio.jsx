@@ -1,12 +1,12 @@
-import Portfolio1 from "../assets/porfolio/portfolio-1.png";
-import Portfolio2 from "../assets/porfolio/portfolio-1.png";
-import Portfolio3 from "../assets/porfolio/portfolio-3.jpg";
-import Portfolio4 from "../assets/porfolio/portfolio-4.png";
-import Portfolio5 from "../assets/porfolio/portfolio-5.jpg";
-import Portfolio6 from "../assets/porfolio/portfolio-6.jpg";
-import Portfolio7 from "../assets/porfolio/portfolio-7.jpg";
-import Portfolio8 from "../assets/porfolio/portfolio-8.png";
-import Portfolio9 from "../assets/porfolio/portfolio-9.jpg";
+import Portfolio1_1 from "../assets/porfolio/portfolio-1_1.png";
+import Portfolio2_2 from "../assets/porfolio/portfolio-2_2.png";
+import Portfolio3_3 from "../assets/porfolio/portfolio-3_3.png";
+import Portfolio4_4 from "../assets/porfolio/portfolio-4_4.png";
+import Portfolio5_5 from "../assets/porfolio/portfolio-5_5.png";
+import Portfolio6_6 from "../assets/porfolio/portfolio-6_6.png";
+// import Portfolio7 from "../assets/porfolio/portfolio-7.jpg";
+// import Portfolio8 from "../assets/porfolio/portfolio-8.png";
+// import Portfolio9 from "../assets/porfolio/portfolio-9.jpg";
 
 function Portfolio() {
   return (
@@ -18,84 +18,84 @@ function Portfolio() {
       <h3 className="text-[56px] font-bold text-white leading-[1]">
         My Recent Work
       </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4 mt-[51px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mt-[51px]">
         <div className="grid gap-4">
           <a
-            href="#"
+            href="https://fast-react-pizza-co-five.vercel.app/"
             className="overflow-hidden rounded-lg"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
               className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]"
-              src={Portfolio1}
+              src={Portfolio1_1}
               alt=""
             />
           </a>
           <a
-            href="#"
+            href="https://travel-list-drab-two.vercel.app/"
             className="overflow-hidden rounded-lg"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
               className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]"
-              src={Portfolio2}
+              src={Portfolio2_2}
               alt=""
             />
           </a>
           <a
-            href="#"
+            href="https://movie-list-neon.vercel.app/"
             className="overflow-hidden rounded-lg"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
               className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]"
-              src={Portfolio3}
+              src={Portfolio3_3}
               alt=""
             />
           </a>
         </div>
         <div data-aos="fade-up" data-aos-duration="1500" className="grid gap-4">
           <a
-            href="#"
+            href="https://hero-verse.vercel.app/"
             className="overflow-hidden rounded-lg"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
               className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]"
-              src={Portfolio4}
+              src={Portfolio4_4}
               alt=""
             />
           </a>
           <a
-            href="#"
+            href="https://responsive-web-design-coffeellera.vercel.app/"
             className="overflow-hidden rounded-lg"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
               className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]"
-              src={Portfolio5}
+              src={Portfolio5_5}
               alt=""
             />
           </a>
           <a
-            href="#"
+            href="https://sap-dev-team.vercel.app/"
             className="overflow-hidden rounded-lg"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
               className="h-full w-full max-w-full object-cover transform hover:scale-150 transition-all duration-[600ms]"
-              src={Portfolio6}
+              src={Portfolio6_6}
               alt=""
             />
           </a>
         </div>
-        <div className="grid gap-4" data-aos="fade-up" data-aos-duration="2000">
+        {/* <div className="grid gap-4" data-aos="fade-up" data-aos-duration="2000">
           <a
             href="#"
             className="overflow-hidden rounded-lg"
@@ -132,7 +132,7 @@ function Portfolio() {
               alt=""
             />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

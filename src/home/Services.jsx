@@ -93,8 +93,8 @@ function Services() {
             </div>
             <p className="text-[#C1C1C1] w-full">
               Looking for a custom solution for your business? I’m at your
-              service. From simple to complex CPI Functions, I can bring your
-              ideas to life using the latest technologies.
+              service. From simple landing page to complex page & CPI Functions,
+              I can bring your ideas to life using the latest technologies.
             </p>
           </div>
           <div
