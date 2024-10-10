@@ -35,13 +35,13 @@ function Hero() {
                 and
                 <span className="font-bold"> XSLT&nbsp;</span>. Additionally, I
                 manage the migration of integration platforms from Non-SAP to
-                SAP systems while utilizing Data Store capabilities and am
-                proficient in adapters like
+                SAP systems while utilizing Postman and SoapUI for testing and
+                defect resolution. I am also proficient in adapters like
                 <span className="font-bold"> SOAP,&nbsp;</span>
                 <span className="font-bold"> HTTPS,&nbsp;</span>
-                <span className="font-bold"> Postman,&nbsp;</span>
+                <span className="font-bold"> SFDC,&nbsp;</span>
                 and
-                <span className="font-bold"> SoapUI.&nbsp;</span>
+                <span className="font-bold"> Mail.&nbsp;</span>
                 {/* <span className="font-bold"> React,</span>
                 <span className="font-bold">Node.js</span>,
                 <span className="font-bold">Firebase</span>, and more. */}
